@@ -5,4 +5,4 @@
 # List the versioned files in the current directory.
 
  
-git-ls-files $@ | cut -d '/' -f 1 | sort | uniq | grep --invert-match '"'
+git ls-files | cut -d '/' -f 1 | sort | uniq | grep --invert-match '"'
