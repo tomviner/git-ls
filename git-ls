@@ -1,5 +1,6 @@
 #!/bin/sh
 #
+# Based on a script which is:
 # Copyright (c) 2008 Daniel Schierbeck
 #
 # List the versioned files in the current directory.
